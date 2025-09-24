@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://daniel-echeveste.github.io/",
+  "homepage": "https://daniel-echeveste.github.io/WEBGL/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
