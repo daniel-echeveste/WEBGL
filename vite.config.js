@@ -6,9 +6,10 @@ import  glsl  from 'vite-plugin-glsl'
 import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
 
-export default {
+export default { 
     root: 'src/',
     publicDir: '../public/',
+    base: '/WEBGL/',
     plugins:
     [
         // Restart server on static/public file change
@@ -44,7 +45,7 @@ export default {
     },
     build:
     {
-        base: '/WEBGL/',
+       
         outDir: '../build', // Output in the dist/ folder
         emptyOutDir: true, // Empty the folder first
         sourcemap: true, // Add sourcemap
